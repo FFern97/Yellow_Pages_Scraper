@@ -18,7 +18,7 @@ API_KEY = ""
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
     API_KEY = config["api_key"]
-
+    print(f"API Key: {API_KEY}")
 
 def get_scrapeops_url(url, location="us"):
     payload = {
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 
     MAX_RETRIES = 3
     MAX_THREADS = 4
-    PAGES = 1
+    PAGES = 2
     LOCATION = "Fairfield County, CT, United States"
 
     logger.info(f"Crawl starting...")

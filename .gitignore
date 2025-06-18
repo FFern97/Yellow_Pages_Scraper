@@ -1,0 +1,31 @@
+# Entornos Virtuales
+/venv/
+/env/
+.env
+
+# Archivos de Python compilados y caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de dependencias de distribución
+/build/
+/dist/
+*.egg-info/
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+
+# Archivos temporales específicos del proyecto
+*.log
+*.tmp
+debug_*.html
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Salida / Resultados
+/results/
